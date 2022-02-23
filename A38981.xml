@@ -1,0 +1,479 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Examination of the impartial state of the case of the Earl of Danby in a letter to a member of the House of Commons.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1680</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 75 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A38981</idno>
+            <idno type="STC">Wing E3727</idno>
+            <idno type="STC">ESTC R5161</idno>
+            <idno type="EEBO-CITATION">12580068</idno>
+            <idno type="OCLC">ocm 12580068</idno>
+            <idno type="VID">63728</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A38981)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 63728)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 960:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Examination of the impartial state of the case of the Earl of Danby in a letter to a member of the House of Commons.</title>
+               </titleStmt>
+               <extent>[2], 35 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed, and are to be sold by Walter Davis ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1680.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Leeds, Thomas Osborne, --  Duke of, 1631-1712.</term>
+               <term>Political crimes and offenses --  Great Britain.</term>
+               <term>Great Britain --  History --  Restoration, 1660-1688.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-10</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2012-10</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:63728:1"/>
+            <pb facs="tcp:63728:1" rendition="simple:additions"/>
+            <p>AN EXAMINATION OF THE IMPARTIAL State of the CASE OF THE EARL of DANBY. IN A LETTER TO A Member of the Houſe of Commons.</p>
+            <p>
+               <hi>LONDON:</hi> Printed, and are to be ſold by <hi>Walter Davis,</hi> Bookbinder, in <hi>Amen-Corner</hi> neer <hi>Paternoſter-Row.</hi> 1680.</p>
+         </div>
+      </front>
+      <body>
+         <div type="account">
+            <pb facs="tcp:63728:2"/>
+            <pb n="1" facs="tcp:63728:2"/>
+            <head>AN EXAMINATION Of the (pretended) Impartial State of the CASE Of the EARL of <hi>DANBY,</hi> &amp;c.</head>
+            <p>
+               <seg rend="decorInit">T</seg>Hough I have little curioſity to read the Pamphlets that ſwarm at this time, and think it almoſt as great an Errour to mix with the Crowd of Writers, as to mingle with any other Riot; yet I was drawn from my own Inclinations, by ſo ſpeci<g ref="char:EOLhyphen"/>ous a Title, as, <hi>An Impartial State of the Caſe of the Earl of</hi> DANBY, having been conver<g ref="char:EOLhyphen"/>ſant in many Affairs that relate to that Lord.</p>
+            <p>At the firſt Reading of it, I was not a little ſurpriz'd to find, (as I then thought) a thing Publiſht with ſuch a Ti<g ref="char:EOLhyphen"/>tle, and confirmed with ſuch confident promiſes of Truth, and yet to be compoſed of Three things ſo far from Im<g ref="char:EOLhyphen"/>partiality.</p>
+            <p>The Firſt is the manner of Arguing, which is moſt up<g ref="char:EOLhyphen"/>on Queſtions begg'd.</p>
+            <p>The Second is, of many Untruths, which I preſum'd were eaſie to make appear by matter of Fact.</p>
+            <p>The Third is, an endeavour to fix upon the King, moſt of the Errours and Crimes that were Charged on him.</p>
+            <p>Yet with this firſt Nation I was not ſatisfy'd, but read it more carefully the ſecond time; and being then con<g ref="char:EOLhyphen"/>vinced it was ſubject to theſe Errours, I thought it my Duty to my King and Countrey, to let them not be ig<g ref="char:EOLhyphen"/>norant
+<pb n="2" facs="tcp:63728:3"/>of any Information that I could give; ſince ſome particular knowledge that I am furniſht withal, makes me more capable to preſent them with ſome Obſervations than others, though of greater Abilities then I, cou'd have done.</p>
+            <p>I therefore apply'd my ſelf to Examine this ſharp Cen<g ref="char:EOLhyphen"/>ſure upon the Parliament, for ſo ill Rewarding the Merits of this Deſerving Lord, as to <hi>let Malice have too great a ſhare in his Proſecution:</hi> And in the ſame place there is an aſſurance, that nothing ſhould be related, but what may <hi>be depended upon for Truth.</hi>
+            </p>
+            <p>Who the Authour of this is, I cannot tell; but if it were not the Lord himſelf, 'tis a Friend more paſſionate than uſual, and one that gives him ſo large a Character, and in whoſe Cauſe he condemns both King and Coun<g ref="char:EOLhyphen"/>try; that it ſeems hardly credible, that one man ſhould be ſo extravagantly kind for another, but rather the pro<g ref="char:EOLhyphen"/>duction of Self-Intereſt and Conceit; and comparing the Stile and Arguments with this Lords Speech in the Houſe of Peers when he was Charg'd, it helps to confirm my Opinion, that this Lord was the Friend that Writ it; and 'tis more probable, that he is ſo much a Friend to himſelf, than that any other ſhould be ſo to him.</p>
+            <p>I ſhall now proceed to particular Remarks, and begin with the firſt matter of Fact; <hi>The faithful Diſcharge</hi> of this Lords Truſt as Treaſurer of the Navy, to the <hi>ſatiſ<g ref="char:EOLhyphen"/>faction of His Majeſty, and the great content of the Sea-men.</hi>
+            </p>
+            <p>'Tis fit to obſerve, That this Office depends on the di<g ref="char:EOLhyphen"/>rections of the Commiſſioners of the Navy what to pay, and on the Lord Treaſurer, or Commiſſioners of the Trea<g ref="char:EOLhyphen"/>ſury, for Money to pay; ſo that if this Lord gave con<g ref="char:EOLhyphen"/>tent, it ſeems he was ſupplyed to make himſelf capable of the performance. But his Impartial Friend attributes all this to his Lordſhip, as he does other things to his Ma<g ref="char:EOLhyphen"/>nagement with ſo much <hi>Prudence</hi> and <hi>Succeſs.</hi>
+            </p>
+            <p>But yet it will appear he has but ill-luck in his firſt Aſ<g ref="char:EOLhyphen"/>ſertions; for ſince the Treaſury of the Navy is ſo con<g ref="char:EOLhyphen"/>fin'd, the great Truſt that remains in him, is onely in Sums of Money, which can be violated by no ways, but
+<pb n="3" facs="tcp:63728:3"/>falſely diſpoſing it, or applying ſome to his own private uſe; the laſt of which has been counted a high Crime; for the King's Treaſures have ever been taken to be <hi>Sacra Pa<g ref="char:EOLhyphen"/>trimonia,</hi> and none were to uſe any of it, but were liable to great puniſhments.</p>
+            <p>But this Lord ventur'd to apply Two thouſand ſeven hundred forty ſeven pounds five ſhillings and eleven pence of the Kings Money to his own uſe, and was ſhort ſo much in his Account for his <hi>Faithful Diſcharge</hi> of <hi>Treaſurer of the Navy;</hi> and was forgiven it by a Privy-Seal, bearing date the 21 of <hi>February,</hi> 1676. which was about three years after he was Lord Treaſurer. A ſeaſonable time to paſs ſuch an Account, to be forgiven for ſome Money, when he had gotten the Command of all the reſt: but I ſhall not diſpute whether this fault hinder'd His Majeſty from being ſatisfy'd with his performance in that employ<g ref="char:EOLhyphen"/>ment, ſince his bounty and goodneſs was in other things much more extended to this Lord; but how well returned, will appear by the following Obſervations.</p>
+            <p>After this ſtumble in the Threſhold, he proceeds to his advancement in 73. to the place of Lord Treaſurer, which, he ſays, he managed with ſo great <hi>Prudence and Succeſs, that contrary to all Mens expectations, but eſpecially of his Enemies (who aſſured themſelves of his immediate ruine by that Preferment) he ſupported for near ſix years that conditi<g ref="char:EOLhyphen"/>on of his Maſter, which it was not then thought cou'd have been made to ſubſiſt for ſo many Months, without any Supplies or Burthens laid upon the People in all his time.</hi>
+            </p>
+            <p>Here his Impartial Friend begins boldly to aſſert, and as confidently to beg the Queſtion; That this Lord ſupport<g ref="char:EOLhyphen"/>ed the Kings Condition for ſix years, that was thought cou'd not have been made ſubſiſt ſix Months. I believe 'twould puzzle the Author to name the Perſons that were of this Opinion; for they cou'd find no ſubject-matter for their Judgment, but muſt be guided by Flattery or Igno<g ref="char:EOLhyphen"/>rance. And 'twere very uncharitable, if not malicious, to believe, that thoſe that Managed the Revenue before this Lord, ſhould be ſo weak and diſhoneſt, (for leſs than ſuch a Conjunction, cou'd not reduce ſuch a Revenue to ſo de<g ref="char:EOLhyphen"/>plorable
+<pb n="4" facs="tcp:63728:4"/>a condition) as to give any a juſt ground to be<g ref="char:EOLhyphen"/>lieve they had not left a ſubſiſtance for ſix Months.</p>
+            <p>This heavy Charge on his Predeceſſours, ſeems not onely very partial, but very extravagant; which will be beſt diſ<g ref="char:EOLhyphen"/>cerned, by examining the great <hi>Succeſs</hi> and <hi>Prudence</hi> of this Lord; and perhaps it will appear, that Men ſhou'd rather have judg'd, and his Enemies have apprehended, that the Kings Revenue was left in ſuch a condition to this Lord, that it might eaſily have been ſupported for much a longer time than ſix years; and if any Calculation was made for his Ruine, it muſt have been from other cauſes.</p>
+            <p>As to that of Supplies, it is very true, that there were none given directly to the Kings ſole uſe in his time: but the Eighteen Months Tax for 1238750 <hi>l.</hi> which was gi<g ref="char:EOLhyphen"/>ven in the Lord <hi>Cliffords</hi> time, was all paid in this Lord's; half of which, <hi>viz.</hi> the laſt three Quarters, was ſolely diſ<g ref="char:EOLhyphen"/>poſed by him, and the firſt three by the Lord <hi>Clifford,</hi> for Publick Uſes; which contributed to leave the Kings con<g ref="char:EOLhyphen"/>dition in a better poſture than is here acknowledged; which will be ſhewn in a more proper place, when I ſet down the ſtate of the Kings condition, in point of his Re<g ref="char:EOLhyphen"/>venue, as it was left by his Predeceſſour the Lord <hi>Clif<g ref="char:EOLhyphen"/>ford.</hi>
+            </p>
+            <p>At the ſame time I will preſent how this Lord left it; by which every reaſonable man will be beſt convinc'd. Yet before I plainly ſet them down, I will beg leave to take no<g ref="char:EOLhyphen"/>tice of ſome Particulars, which perhaps may be uſeful to the conſideration of the Generals.</p>
+            <p>The firſt Illuſtration of this Lords Prudence is drawn from the Chargeable War with the <hi>Dutch,</hi> the whole bur<g ref="char:EOLhyphen"/>then of which, this Impartial Friend wou'd lay upon this Lord to diſcharge; forgetting, or reſolving to forget all but his concerns; and that the War was begun in the time of the Commiſſioners, and the great Charge of it was in the time of the Lord <hi>Clifford,</hi> who might as well com<g ref="char:EOLhyphen"/>plain, that he had no benefit of any Tax given in his time, as this Lord, that there was none given in his.</p>
+            <p>But that I may not ſay more than I can clear, nor deſire to be believed onely from confident affirmations, I muſt
+<pb n="5" facs="tcp:63728:4"/>acknowledge that I have ſeen the diſpoſition of the three firſt Quarters of the Tax: the firſt was made the third of <hi>April,</hi> 1673. which was not three Months before the Lord <hi>Clifford</hi> reſign'd his ſtaff; the ſecond alſo was ſigned by the Lord <hi>Clifford;</hi> the third Quarter was projected by the Lord <hi>Clifford</hi> with this Lord, then Sir <hi>Thomas Osborne,</hi> whoſe Name I have ſeen to the bottom of the Liſt, being ſo entered at the Exchequer: the other three Quarters were not medled with, but left wholly to the diſpoſition of this Lord, in whoſe time alſo, al theſe ſix were paid. Concerning other Taxes and Monies, I ſhall give the Ac<g ref="char:EOLhyphen"/>count in a more proper place, and onely add this Obſer<g ref="char:EOLhyphen"/>vation, That all Aſſignments upon this Tax, ever found cre<g ref="char:EOLhyphen"/>dit for the advancing of Money; and this burthen of the <hi>Dutch</hi> War did not lye ſo wholly upon this Lord, nor was the Tax ſo unuſeful to him in diſcharging of his part of it.</p>
+            <p>I will not unneceſſarily dwell upon particulars, as, what Arrears were upon ſeveral Offices; the general ſtates when laid down will beſt anſwer that: but I will onely touch upon ſome others that will not relate to that, where<g ref="char:EOLhyphen"/>by every thing may have its juſt examination.</p>
+            <p>One great particular applyed to the Honour of this Lord, and to the Infamy of others, is the ſetling the Debt to the Goldſmiths; which yet is not a Debt paid, but the ſet<g ref="char:EOLhyphen"/>ling of a perpetual Intereſt to be paid. I will not deny but 'twas a juſt and good action; nay, though Mr. <hi>Coleman</hi> claims a ſhare in it, whoſe benefit perhaps only made him active in it.</p>
+            <p>But upon this occaſion I would onely preſent a ſmall view of the Impartiality of this Writer; he calls this ſtop of the Exchequer an Infamous Action, and fixes it upon many perſons, allowing no excuſe for them; though it was own'd by the King in a publick Declaration, by reaſon of the neceſſity of Affairs; but when this Lord was Charged with Crimes of higher natures, he allows the Plea that the King commanded it, and though privately, to be ſuffi<g ref="char:EOLhyphen"/>cient to wipe off all Infamy from him. This cannot appear good Reaſon, or clear Juſtice, and leſs ſhewed towards the
+<pb n="6" facs="tcp:63728:5"/>King than any: if this Lord be charged with an ill Action, it muſt be fixed on the King; and if a good one be to be claimed, 'tis wholly applyed to this Lords Honour, and the King muſt be allowed no ſhare of his own good<g ref="char:EOLhyphen"/>neſs.</p>
+            <p>The next particulars he uſes to help ſhew what great things this Lord performed, is, the War of <hi>Algiers,</hi> and the Rebellion in <hi>Virginia:</hi> the laſt quickly ceas'd; and while both hapned, if there had been a conſiderable Fleet for Summer and Winter Guards kept out beſides, it had been a matter of ſome conſideration; otherwiſe, the ſparing of thoſe, was more conſiderable than the paying for theſe.</p>
+            <p>Other more ſlight particulars are ſet forth in the next Paragraph; the great abatement of the Corn-Act, to the diminiſhing the Cuſtoms Threeſcore thouſand pounds a year: The Act for Prohibiting the <hi>French</hi> Commodities, which has loſt not leſs than one hundred and fifty thou<g ref="char:EOLhyphen"/>ſand pounds a year from the ſaid Revenue, which this Lords Predeceſſours did receive yearly into the Exche<g ref="char:EOLhyphen"/>quer. What theſe Acts might leſſen from what the Cu<g ref="char:EOLhyphen"/>ſtomes might have been none, can well gueſs; but one thing will confute the Argument, <hi>viz. That there was more paid in his Predeceſſors times;</hi> for let any take a medium of the time of this Lords being Lord Treaſurer, and 'twill appear, the Cuſtoms never yielded ſo much as in his days.</p>
+            <p>The next complaint is, the 200000 <hi>l.</hi> borrowed on the fifth part of the Exciſe, and the inconvenient manner of repaying it. This I confeſs is hard to be underſtood: for in ſome meaſure this Money was of uſe, not of diſadvan<g ref="char:EOLhyphen"/>tage to this Lord; for the full 200000 <hi>l.</hi> was lent in his time; and at his going out, on the 25th of <hi>March,</hi> 1679. 83400 <hi>l.</hi> was left to pay, which ſince was paid by theſe preſent Commiſſioners; ſo that of conſequence that ſum was uſed in the aſſiſtance of his management, and not the whole any burthen, to make the work ſo much the harder for his <hi>Prudence</hi> and <hi>Succeſs.</hi>
+            </p>
+            <pb n="7" facs="tcp:63728:5"/>
+            <p>The next Paragraph ſets forth <hi>this Lords care to be very great, to ſee Money applyed to the moſt publick uſes, as will appear by the weekly Certificates in the Exchequer, (to which he appeals) and from which publick uſes he never diverted one penny that was ſo appropriated, (notwithſtanding the many falſe ſuggeſting to the contrary,</hi> &amp;c.)</p>
+            <p>This dark Text needs a Commentary. Firſt, as to the Weekly Certificates of the Exchequer: 'tis to be obſerv'd that they do indeed give an Account of all Appropriated Moneys; but by the way, leſt it ſhould be taken for granted it does ſo of all other Moneys, 'tis fit to let it be underſtood, that though it ſhould and ought to do ſo, yet this Lord cauſed many Sums of Money to be paid by his private direction, and never conizable in the Exche<g ref="char:EOLhyphen"/>quer, which the Commiſſioners of the Exciſe cannot de<g ref="char:EOLhyphen"/>ny; and Mr. <hi>Bertie,</hi> or a private Letter, the Voucher for their being plac'd and allow'd to their Account. That he never diverted any appropriated Money (he means, I ſuppoſe, by Acts of Parliament) is very true; but 'tis as true, that he could not have done it, if he had the inclina<g ref="char:EOLhyphen"/>tion to have attempted it; for his Warrant or directions would have met with no obedience in the Exchequer; for the Auditor would not have directed Monies, nor the Tellers have paid it to a wrong Voucher; which renders not the Exchequer a proper way for private diſpoſitions of Money; for there no Lord Treaſurer can be obey'd againſt an Act of Parliament expreſly directing, nor in any thing that is deriv'd ſolely from his own Authority: but yet where this Lord had power to divert, he has not been ſcrupulous to uſe it; for when Money was lent on the cre<g ref="char:EOLhyphen"/>dit of the Fifth part of Exciſe, he hindred it from coming in; (which was often complained of publickly at the Ex<g ref="char:EOLhyphen"/>chequer by the Lenders of the Money) and diverted it to other uſes: Nor can the late Commiſſioners of the Ex<g ref="char:EOLhyphen"/>ciſe deny this; if they ſhould, the Lenders will prove it, who daily ſolicited them to bring it in.</p>
+            <p>A ſecond inſtance is in the Poll-Bill, which was given for an actual War with <hi>France,</hi> upon which many Eaſt<g ref="char:EOLhyphen"/>land
+<pb n="8" facs="tcp:63728:6"/>Merchants were promiſed payment for Hemp and Maſts, and other Furniture for Ships, which were taken up of them; but no care taken to reſerve Money for them out of the Act, but are now before the preſent Lords Commiſſioners, who are contriving Securities, or Payments for them; ſo that it ſeems this Lord obſerved juſt Rules where he could not violate them, and broke them where he had power or opportunity.</p>
+            <p>In the ſame Paragraph this Lords Induſtry is ſet forth, in the Improving the Kings Revenue: but this was no pe<g ref="char:EOLhyphen"/>culiar Induſtry in this Lord that was unpreſidented; for the Cuſtoms were once let for 300000 <hi>l. per Annum,</hi> and improved to 600000 <hi>l.</hi> juſt before his time, and the Ex<g ref="char:EOLhyphen"/>ciſe was likewiſe improved; but this is more the Induſtry of private men, than of a Treaſurer; for by their deſire of gain, they bid upon one another; which a Treaſurer muſt receive, or put out the Candle they bid by; as they ſay was done in the Caſe of Mr. <hi>George Pitt,</hi> and Mr. <hi>Brett,</hi> &amp;c.</p>
+            <p>Nor was the Art new which he there bragg'd of, to break a Bargain, and reſume the Farm of the Exciſe for the Kings advantage; for the Lord <hi>Clifford</hi> made him a Preſi<g ref="char:EOLhyphen"/>dent for the like trick, by re-ſuming the Farm of the Cuſtoms, which he had let to Sir <hi>William Bucknall</hi> and o<g ref="char:EOLhyphen"/>thers, for 600000 <hi>l. per Annum;</hi> ſo that I can neither ſay the Art is new or good.</p>
+            <p>Laſtly, if this Lord ſo improved the Revenue, he has alſo improved the Argument againſt himſelf, if he has not uſed it with that Succeſs and Prudence which is ſo boaſted of in the beginning.</p>
+            <p>For the Revenue of <hi>Ireland,</hi> I can ſay little to it; one<g ref="char:EOLhyphen"/>ly the Charge that my Lord <hi>Ranelagh</hi> lyes under, and the protection always ſhew'd in keeping that buſineſs from a ſtrict Examination, does not ſeem to make out any ad<g ref="char:EOLhyphen"/>vantage that the King has found by the diſpoſition of that Farm.</p>
+            <p>The next Honour that is attributed to this Lord, is, that he <hi>paid rarely more than Eight</hi> per Cent. <hi>for Money
+<pb n="9" facs="tcp:63728:6"/>borrowed, notwithſtanding the ſhakes lately given to Credit;</hi> &amp;c.</p>
+            <p>I hope this knowing Man in the Exchequer would not for proof appeal to the weekly Certificates for this; if he does, he will ſind nothing there of the payment of any ſuch Intereſt at all; for this Lord practic'd moſt upon Tallies of Anticipation, the way that has been the great deſtroyer of the Revenue; which is done by a fictitious Bill thrown down by a Teller for Money, when really he has it not, and he diſcharged by a Tally inſtead of an Iſſue; which Iſſue is removed from being vouch'd by Record in the Exchequer; ſo that when 'tis paid, or when the Inte<g ref="char:EOLhyphen"/>reſt is paid, or what Intereſt is paid, never appears there; ſo that all the vouching lyes among thoſe that deal in Mo<g ref="char:EOLhyphen"/>ney; and if they can but agree well, there is no ſence a<g ref="char:EOLhyphen"/>gainſt their Combinations. This I ſet down as briefly as I can, onely to ſhew, that this Lord could not know what Intereſt he paid, though he might know what he agreed for: for if a Tally is to be paid a year after, the Intereſt may commence with the date of the Tally, if they be but pleaſed to agree; and when the Farmers or Contracters of the Exciſe have advanced great Sums, the Commiſſio<g ref="char:EOLhyphen"/>ners have by their Acquittances given Vouchers inſtead of Records, for the Commencement of the Intereſt; and I have heard, (nor is it improbable) that they were all very well acquainted.</p>
+            <p>The next Paragraph is of greater moment, anſwering the ſcandal that the Revenue has been ſquandred under the name of Secret Service; and upon this, ſhews from the Certificates of the Pells, that there has been accounted from <hi>Eaſter</hi> 73, to <hi>March</hi> 79, Eight Millions ſixty two hundred ſeventy ſix thouſand ſeven hundred ſixty ſeven pounds, beſides the Intereſt of the Goldſmiths, and di<g ref="char:EOLhyphen"/>vers other particulars which are not included in that Ac<g ref="char:EOLhyphen"/>count; and then deſires it may be computed what could poſſibly remain to have been laid out extravagantly, and 'twould appear a very inconſiderable Sum.</p>
+            <p>Firſt, 'tis to be obſerved, That 'tis confeſt there are di<g ref="char:EOLhyphen"/>vers
+<pb n="10" facs="tcp:63728:7"/>particulars which are not included in that Account of the Exchequer; but the Argument that is here offered, is drawn from the Compariſon of what that Account is, and what the Revenue may amount to in that time; which in<g ref="char:EOLhyphen"/>fers, that onely the Revenue is brought to that Account; but ſince he deſires a Computation, I will furniſh him with one more particular than perhaps he deſires; and then (the vail being pull'd off) this fallacie among others will be diſcovered.</p>
+            <p>Firſt, The Revenue in that time, may indeed amount to about that Sum; but in the Account of the great Sum he ſets down, there are theſe Particulars contained, <hi>viz.</hi>
+            </p>
+            <p>
+               <table>
+                  <row>
+                     <cell>The Eighteen Months Tax, amounting to</cell>
+                     <cell>1238750 <hi>l.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>The Tax for Building the Thirty Ships,</cell>
+                     <cell>584978 <hi>l.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>On the Fifth part of the Exciſe,</cell>
+                     <cell>200000 <hi>l.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>The Poll-Act,</cell>
+                     <cell>252900 <hi>l.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>The firſt Act for Disbanding the Army, and other Uſes, <hi>&amp;c.</hi>
+                     </cell>
+                     <cell>619388 <hi>l.</hi>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+            <p>This had appeared an Argument of ſome moment, if it had been ſtated upon the Account wholly of the Reve<g ref="char:EOLhyphen"/>nue, and that it had been left uncharged by this Lord: but without ſearching into the fallacies of it, the condition of the Revenue as it was left by this Lord, will beſt deter<g ref="char:EOLhyphen"/>mine his <hi>Prudence</hi> and <hi>Succeſs.</hi>
+            </p>
+            <p>The next thing inſiſted on, is <hi>Secret Service,</hi> which <hi>he ſays, thoſe that are verſed in the Exchequer know, that many Sums are included in that way of Payment, that are either for Publick Service upon Expedition for ſudden occaſi<g ref="char:EOLhyphen"/>ons; or to ſave greater Fees, where His Majeſty is pleaſed to let it be ſo, as in the Caſe of the Lord Treaſurer and Chan<g ref="char:EOLhyphen"/>cellor of the Exchequers Salaries,</hi> &amp;c.</p>
+            <p>This is a compound of Miſtakes: for there are none in the Exchequer that can know what any Secret Service Mo<g ref="char:EOLhyphen"/>ney is applyed to; for the Orders are in a us'd name, and no Service mentioned; but the words betray themſelves: for if it be for ſaving of great Fees, 'tis of conſequence
+<pb n="11" facs="tcp:63728:7"/>that the Exchequer knows not what 'tis for, or elſe they would have their Fees accordingly; but for this very cauſe, becauſe thoſe that were verſed in the Exchequer did not nor could not know what ſuch Monies were for, the paſſing of ſuch Orders was ſtopt by the Officers, till the certain Fees were agreed; for otherwiſe they took it as free gift; and rather than it ſhould be known what it was for, a proportion of Fees were conſented to. But the particular inſtance of ſaving the Lord Treaſurers and Chancellors of the Exchequers Fees on their Salaries, by this way, is yet more unluckie; ſince if the Author had been at all verſed in the Exchequer, he would have known that there was never any Fees demanded or taken for thoſe Salaries (though the Orders came in their Names, and the payment expreſt,) ſince the Exchequer had a being; and this very Lords Penſion of 8000 <hi>l. per Annum,</hi> was never included in Secret Service, and yet paid without Fees.</p>
+            <p>As for the Sum paid, as I remember, 'twas delivered in Parliament to be 252467 <hi>l.</hi> paid in two years and about three Months; upon which I ſhall onely ſay, that it was much more than was uſed in all the time before: and ſince he ſays that one third at leaſt, if not half the pay<g ref="char:EOLhyphen"/>ments for ſecret Service, might be expoſed to view as well as other Payments; I cannot diſpute it, but onely wiſh they had either been ſo expoſed, or elſe not ſo paid, that thoſe jealouſies of ill diſpoſing Moneys, and corrupting Members of Parliament, had not ſo much prejudiced the Kings Affairs.</p>
+            <p>As to the way of Arguing, That this private Account is better than what was formerly contrived: It is not my deſign to diſpute upon the compariſons of ill things, but leave every thing to be conſidered abſtractedly, and to bear its own proper weight; but without queſtion, the iſſuing of the Kings Money ought to be publick, and the occaſion intelligible on the Records; unleſs the Privy-Purſe, for which none ſure would grudge a plentiful pro<g ref="char:EOLhyphen"/>viſion; and no juſt Bounty or Reward ought to be con<g ref="char:EOLhyphen"/>cealed;
+<pb n="12" facs="tcp:63728:8"/>'tis juſt and honourable for a King to beſtow, but not for others to have the ſecret power; nor can any thing be more inconvenient, than too great opportunities of power given to any Subject; it breeds and nouriſhes temptation in him, and ſuſpition in others; and what two greater Rocks can a King Govern between, than too much power in one, and the jealouſie of that in all others?</p>
+            <p>I will inſtance one particular that ſhew'd a ſubject for theſe two, and 'twill be eaſie to judge, how immodeſtly power was uſed, and what juſt jealouſies it muſt give; it far exceeded this way of Secret Service; for a whole branch of the Kings Revenue, and no leſs than the Ex<g ref="char:EOLhyphen"/>ciſe, was endeavoured to be brought under the ſole diſpo<g ref="char:EOLhyphen"/>ſing of this Lord, out of all due courſe of Common-Law, (for ſo the Method of the Exchequer is taken to be) by a particular Caſhier was erected, and one Mr. <hi>Kent</hi> put in; which project the Patent ſays was ſeriouſly examined by the Lord Treaſurer, and the Chancellour of the Ex<g ref="char:EOLhyphen"/>chequer, <hi>&amp;c.</hi>
+            </p>
+            <p>The Chancellour of the Exchequer was then Sir <hi>John Duncombe,</hi> who utterly renounced the knowledge of it, and thought it a Patent of a moſt dangerous conſe<g ref="char:EOLhyphen"/>quence; beſides, in the ſame Patent, when it comes to the diſpoſition of the Money, it leaves out the Chancellour of the Exchequer; and ſays, it ſhall be <hi>paid into the Exche<g ref="char:EOLhyphen"/>quer, or in ſuch other manner as the Lord Treaſurer ſhall think. fit.</hi> Theſe are the very words; and 'tis probable, if that the Chancellour of the Exchequer had approved this and ſome other things, he had not been removed from an em<g ref="char:EOLhyphen"/>ployment which he performed with ſo much upright<g ref="char:EOLhyphen"/>neſs.</p>
+            <p>This Patent was queſtioned in Parliament; and being of ſo infamous a nature, and a Queſtion accordingly form'd, <hi>That this Patent is illegal, and of dangerous conſequence;</hi> this Lord found ſuch open friends (perhaps by Secret Ser<g ref="char:EOLhyphen"/>vice) that though they granted themſelves 'twas an ill Pa<g ref="char:EOLhyphen"/>tent, yet for fear it ſhould be part of the Charge made
+<pb n="13" facs="tcp:63728:8"/>good againſt this Lord, and not being yet ſo hardy as to give their Negatives, found our an invention to avoid the ſure blow, by the Orders of the Houſe, which give a freedom for any to move for the adding or taking away any words to the ſtated Queſtion; upon which priviledge they mov'd and ſeconded one another with private zeal in this publick Cauſe, to leave theſe words out of the Que<g ref="char:EOLhyphen"/>ſtion, <hi>viz. Illegal, and of dangerous conſequence;</hi> which they carried in the Affirmative, and then the Queſtion one<g ref="char:EOLhyphen"/>ly remained,</p>
+            <p>
+               <hi>This Patent is—</hi>
+            </p>
+            <p>'Tis caſie by this to judge, what power an Ambitious Man may aim at; and what jealouſies exceſs of power in a Subject may juſtly give, ſince it could thus operate upon the major part of a Houſe of Commons, and leave ſuch an incomparable Queſtion upon their Books.</p>
+            <p>I have dwelt too long perhaps upon theſe particulars, from which I confeſs no demonſtrative Argument of the whole is to be fram'd; but I thought it fit to ſhew what Artifice lay hid under every ſpecious particular, and how little the promiſe was performed of relating nothing but Truth. What excuſe the Author would make, I cannot gueſs; unleſs that he was unfortunate to chooſe ſuch a ſub<g ref="char:EOLhyphen"/>ject to defend, that always gave great ſuſpitions to be in<g ref="char:EOLhyphen"/>ſeparable from the contrary.</p>
+            <p>I will now give a plain Account of the Generals, which muſt be the ſure proof of all; firſt, As to the condition of the Revenue, how it was Jeſt by the Lord <hi>Clifford;</hi> of which I have procured a Copy truely written from the Original Paper, under Sir <hi>Philip Floyds</hi> hand.</p>
+            <floatingText xml:lang="eng" type="accounts">
+               <body>
+                  <head>COPY.</head>
+                  <opener>
+                     <date>June <hi>10. 1673.</hi>
+                     </date>
+                  </opener>
+                  <p>THE Cuſtoms were Charged with about <hi>153000</hi> l. for the Navy, Ordnance, <hi>&amp;c.</hi> and I hope this laſt Fleet will go near to clear it.</p>
+                  <p>Almoſt two Thirds of the Rent of the Exciſe for the Quar<g ref="char:EOLhyphen"/>ter dae at <hi>Michaelmaſs</hi> next, is Charged for the Forces, Cof<g ref="char:EOLhyphen"/>ferer, <hi>&amp;c.</hi>
+                  </p>
+                  <pb n="14" facs="tcp:63728:9"/>
+                  <p>All the Forces are provided for till the <hi>25th</hi> of <hi>July,</hi> and the laſt new Additional Leavies till <hi>Michaelmaſs</hi> next.</p>
+                  <p>The Houſhold is provided for till <hi>Lady-day</hi> laſt.</p>
+                  <p>The Treaſurer of the Chamber till <hi>Chriſtmaſs</hi> laſt, except the old Arrears in the late Lord Treaſurers time.</p>
+                  <p>The Office of the Works till <hi>Lady-day</hi> laſt.</p>
+                  <p>The great Wardrobe hath been ſupplyed from time to time, as their moſt preſſing occaſions have required.</p>
+                  <p>
+                     <hi>Tangier</hi> is weekly provided for on the Cuſtoms.</p>
+                  <p>The Ordnance bath had as much yearly in proportion, as in the former <hi>Dutch</hi> War; but by reaſon that that Office hath not kept the Accounts, I cannot juſtly ſay how that Office ſtands.</p>
+                  <p>The Victualler is paid within a ſmall matter, except the laſt agreement for the Land-men.</p>
+                  <p>The firſt Three Quarters of the Tax given by the Parliament are aſſigned; the three laſt are untoucht, which amount to about <hi>600000</hi> l.</p>
+                  <p>There will be in <hi>October</hi> and <hi>November</hi> for payment of the Fleet and Yards, in ready Money, theſe three following Sums.</p>
+                  <p>
+                     <table>
+                        <row>
+                           <cell>From the Advance of the Exciſe</cell>
+                           <cell>
+                              <hi>150000</hi>
+                           </cell>
+                           <cell rows="3">
+                              <hi>342500</hi> l.</cell>
+                        </row>
+                        <row>
+                           <cell>From the French Money</cell>
+                           <cell>
+                              <hi>112500</hi>
+                           </cell>
+                        </row>
+                        <row>
+                           <cell>
+                              <g ref="char:V">Ʋ</g>pon the 3 Quarters of the Subſidy</cell>
+                           <cell>
+                              <hi>80000</hi>
+                           </cell>
+                        </row>
+                     </table>
+                  </p>
+                  <p>The Chimney-Money and the Law-Bill are leſt free, to be Charged as there ſhall be occaſion.</p>
+               </body>
+            </floatingText>
+            <p>
+               <hi>By this it appears, that there was 942500</hi> l. <hi>left in Mo<g ref="char:EOLhyphen"/>ney, and the Charge upon the Revenue not 300000</hi> l. <hi>for the Exciſe was left Charged not above 110000</hi> l. <hi>when the Lord</hi> Clifford <hi>went out; and whether this be a Truth, any that doubts it may be reſolved by Sir</hi> Stephen Fox, <hi>or Mr.</hi> Richard Kent.</p>
+            <p>
+               <hi>And to ſhew alſo that the Condition of the Cuſtoms was truely preſented, and the Lord</hi> Clifford <hi>in his Paper gueſs'd right that the return of the laſt Fleet would clear it; I have obtained a Copy of a Letter written from Mr.</hi> Mounteney, <hi>who was then Caſhier of the Cuſtomes, to Sir</hi> Robert Howard, <hi>the then Secretary to the Treaſury.</hi>
+            </p>
+            <floatingText xml:lang="eng" type="letter">
+               <body>
+                  <pb n="15" facs="tcp:63728:9"/>
+                  <head>COPY.</head>
+                  <opener>
+                     <salute>SIR,</salute>
+                  </opener>
+                  <p>
+                     <hi>I</hi> Have a Liſt ſigned by the Lord Treaſurer <hi>Clifford,</hi> and Confirmed by the preſent Lord Treaſurer, the ſaid Liſt be<g ref="char:EOLhyphen"/>ing wholly paid, onely Eight thouſand four hundred pounds payable to the Treaſurer o the Navy. I do hear there are ſe<g ref="char:EOLhyphen"/>veral Talleys ſtruck on the Cuſtomes, but I know not of what value, nor to whom payable. I underſtand the perſons have made their applications to my Lord Treaſurer, and that my Lord intends to make a new liſt; which is all I can ſay to this Affair.</p>
+                  <closer>
+                     <dateline>
+                        <hi>Cuſtom-houſe, London,</hi> 
+                        <date>the 10th. of <hi>Nov. 1673.</hi>
+                        </date>
+                     </dateline>
+                     <salute>Sir,</salute>
+                     <signed>
+                        <hi>Your very humble Servant,</hi> Rich. Mounteney.</signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>It now remains to ſhew on the other ſide, the effect of the great Prudence and Succeſs ſo boaſted of, by as faith<g ref="char:EOLhyphen"/>fully preſenting the State of the Revenue at <hi>Lady-day</hi> 1679. when this Lord left it; and to be as clear in this as I was in the other, I have obtained likewiſe a Copy of it, as it was preſented to theſe preſent Lords Commiſſioners of the Treaſury.</p>
+            <p>The Charge upon the Three great Branches of the Kings Revenue Computed to remain, <hi>Lady-day,</hi> 1672.</p>
+            <p>
+               <table>
+                  <row>
+                     <cell>Remains unpaid of Tallies Charged on the Cuſtoms,</cell>
+                     <cell>435106</cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Of Tallies Charg'd on the Exciſe,</cell>
+                     <cell>550464</cell>
+                     <cell>15</cell>
+                     <cell>04</cell>
+                  </row>
+                  <row>
+                     <cell>To repay the Advance</cell>
+                     <cell>250000</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>The Charge on the Hearth-Duty by Tallies and the Advance-Money,</cell>
+                     <cell>250000</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>Total</cell>
+                     <cell>1485570</cell>
+                     <cell>16</cell>
+                     <cell>04</cell>
+                  </row>
+               </table>
+            </p>
+            <p>And now the equal Reader is left able to judge, (though the Impartial Author ſays he is not) whether this <hi>Lord, or
+<pb n="16" facs="tcp:63728:10"/>the People of</hi> England, <hi>be moſt unhappy in his Misfortunes:</hi> but to thoſe that will not take the pains to examine this, and are not convinced there never was a better Officer in this ſtation, he propoſes a new ſort of Evidence from <hi>Coffee-houſes themſelves,</hi> who have complained of the <hi>good Husbandry this Lord uſed for his Maſter, for fear it ſhould keep off the uſe of Parliaments.</hi>
+            </p>
+            <p>I will not wonder at ſuch a proof, for the Writer uſes always great liberty; but I will onely do the ſame, and de<g ref="char:EOLhyphen"/>ſire thoſe perſons alſo that will not take pains to examine this, to receive the Evidences now in the Coffee-houſes for his Lordſhips Character. I am almoſt perſwaded, that if Ballads had been ſung in his favour, they would have been urged as Evidences of his Innocency; but I dare not take the liberty to urge thoſe that are ſung on the contrary, for Teſtimonies of his guilt; but after ſuch Evidences as Coffee-houſes introduced, the next may probably be Ballads.</p>
+            <p>I have now finiſht my Obſervations on that part of this Lords Miniſtry which belonged to the Treaſury, and ſhall now proceed to State-Affairs, in which other Sphere, (for 'twas not enough to ſhine in one) the Impartial Au<g ref="char:EOLhyphen"/>thor preſents him as great a Miniſter as he has done a Treaſurer; concluding as he begun, <hi>That what he had ſaid concerning this Lords Adminiſtration in his Office as Lord High Treaſurer, he ſpoke upon certain knowledge; and what he ſhall ſay in relation to his Tranſactions in the Affairs of State, are partly ſo, and the reſt upon ſuch aſſurances, that he is no leſs confident of the Truth of them.</hi>
+            </p>
+            <p>Thus he tells us, that he builds upon ſome aſſurances by him received, as firmly as on his own certain knowledge. This I ſuppoſe he might do, without any Compliment to thoſe from whom he received them; for by the Examina<g ref="char:EOLhyphen"/>tions of all compared, 'twill I ſuppoſe appear, their Cre<g ref="char:EOLhyphen"/>dits ought to have no preheminence.</p>
+            <p>He firſt introduces his Diſcourſe with a Complaint he heard this Lord make, that <hi>it was an infinite Misfortune to
+<pb n="17" facs="tcp:63728:10"/>him, that His Majeſty did take him ſo much from the buſi<g ref="char:EOLhyphen"/>neſs of the Treaſury, whereby he could not make thoſe improve<g ref="char:EOLhyphen"/>ments in his Revenue, and give thoſe diſpatches that were neceſſary; and expreſt his regret that he was employed in any other buſineſs than the Treaſury.</hi>
+            </p>
+            <p>As to the improving of the Revenue, it has been diſ<g ref="char:EOLhyphen"/>cours'd already; but for Diſpatches, I ſuppoſe he did not believe much time was neceſſary, if it be true, as I have heard, That he endeavoured to gain a belief in His Maje<g ref="char:EOLhyphen"/>ſty, that no man could be a good Treaſurer, that was eaſie of acceſs.</p>
+            <p>As for that regret this Lord had, for the increaſe of bu<g ref="char:EOLhyphen"/>ſineſs, and conſequently power in the Kings Affairs; I ſhall onely make ſome Obſervations upon this Lords Tem<g ref="char:EOLhyphen"/>per and Proceedings; which will ſhew, he rather deſired to engroſs all Affairs, than ſhare any. The aſſurance of a modeſt and conſin'd nature, would have beſt appeared, by the eaſie and friendly carrying on the Kings buſineſs with ſuch Miniſters and Officers as were of good repute; but inſtead of that, this Lord ſhewed a Temper of a con<g ref="char:EOLhyphen"/>trary nature, by attempting the removal of every one that was not proſtrate enough to him: he began with Sir <hi>John Duncomb</hi> and Sir <hi>Stephen Fox,</hi> men of moſt unqueſti<g ref="char:EOLhyphen"/>oned worth in their Employments: then brought a Charge in the Council againſt Sir <hi>Robert Howard</hi> Auditor of the Receipt, the ſucceſs of which is publickly known, and might queſtionleſs have been very well gueſſed by this Lord, but there were two great cauſes that blinded his Rea<g ref="char:EOLhyphen"/>ſon; his Son the Lord <hi>Dunblain</hi> had the Reverſion of the Auditors place, and the removal of him with the others, had reduced the Exchequer into his uncontradicted power.</p>
+            <p>The Miniſters in State-Affairs, (that did not ſubmit im<g ref="char:EOLhyphen"/>plicitely) found him not leſs ambitious: my Lord <hi>Arlington</hi> and Mr. Secretary <hi>Coventry</hi> ſeemed to have Writs of Eaſe in Forreign Affairs, and very often were reports and ex<g ref="char:EOLhyphen"/>pectations of their leaving their places; and thoſe that were upon better terms with him, were obeyers of his
+<pb n="18" facs="tcp:63728:11"/>power, and not ſharers in any: and I am confident, who<g ref="char:EOLhyphen"/>ever throughly examines this Lords Temper and Carriage amongſt Men and buſineſs, he will hardly conclude it pro<g ref="char:EOLhyphen"/>bable, that any regret could ſpring from his encreaſe of power; rather the Character of a very great Man may be applicable to him, as to our part of the World:</p>
+            <q>
+               <p>Aeſtuat infelix anguſto limite Regni.</p>
+               <bibl>
+                  <hi>Juv. Sat. 10.</hi>
+               </bibl>
+            </q>
+            <p>The reaſons why this Lord entered unwillingly into For<g ref="char:EOLhyphen"/>reign Tranſactions, was, <hi>becauſe he always ſhew'd himſelf averſe to the Counſels wherein he found His Majeſty engaged; and reckons up, The breach of the Triple League, a War with the</hi> Dutch, <hi>a League with</hi> France, <hi>and an Army of</hi> Engliſh <hi>then in</hi> France.</p>
+            <p>Theſe Particulars will not concern my Obſervations; if any did amiſs, let it be examined when there is ſuch an Impartial Account as this pretended to be given: but up<g ref="char:EOLhyphen"/>on this depends the following Paragraph, which ought not to be let paſs without ſome Reflections.</p>
+            <p>He complains there, that the Nation was too haſty, and did not give this Lord time to <hi>reduce things in ſuch a poſture as might be wiſht; and makes a Query, Whether it be not the moſt unſafe, as well as moſt unjuſt practice, for a Nation to diſcourage ſuch Miniſters as endeavour to draw their Maſter to his Kingdoms Intereſt.</hi>
+            </p>
+            <p>Here the Impartial Author lays the Foundation of his enſuing Arguments; and reſolving to Charge this Lords Crimes on the King, he firſt boldly attempts to make him a fit Subject to bear it; and to leſſen his own Impeach<g ref="char:EOLhyphen"/>ment, draws up one againſt his Soveraign, That he had forſaken the Intereſt of his Kingdom, and wanted this Lord to draw him to it.</p>
+            <p>With this gratitude, he ſeldom fails to pay his Majeſty in every particular; and having declar'd what a profeſt Enemy this Lord was to the French Intereſt, believing it deſtructive to this Nation, he deſires,</p>
+            <pb n="19" facs="tcp:63728:11"/>
+            <p>That the Proceedings of this Lord may be <hi>impar<g ref="char:EOLhyphen"/>tially conſidered,</hi>
+               <note place="margin">Page 9.</note> 
+               <hi>and ſee whether they have not all tended to the diminiſhing the French Intereſt ſince his time; and if it have diminiſh'd, it will be hard to finde who elſe there was, beſides himſelf, neer his Majeſty, who had power and inclina<g ref="char:EOLhyphen"/>tion to do it,</hi> &amp;c.</p>
+            <p>The Iſſue then to be joyn'd, is upon the Queſtion begg'd, Whether the French Intereſt was diminiſh'd by this Lords Proceedings; but it will eaſily be granted, that 'twould be hard to finde any neer his Majeſty, beſides himſelf, that had power: And then I hope if it appears that the French Intereſt grew enlarg'd in his days, 'tis as reaſonable to apply his Power and Inclination to be the Cauſes of it, as it is for his impartial Friend to uſe them for the contrary.</p>
+            <p>I will paſs over ſome Inſtances he gives, which cannot amount to the proof of the whole; as, the breaking the League with <hi>France,</hi> Peace made with the <hi>Dutch,</hi> the Duke of <hi>Monmouth</hi> call'd from the French Service, the Match with the Prince of <hi>Orange:</hi> all which are attribu<g ref="char:EOLhyphen"/>ted to this Lord, as the Cuſtom is of any reputed Good. At which I will not quarrel, becauſe I have yielded the point that he had all Power; but I will onely put him in mind of the Addreſs from Parliament to the King to re<g ref="char:EOLhyphen"/>call the Forces from <hi>France,</hi> and the Bills paſs'd in ſeveral Seſſions to that purpoſe, even in thoſe years when the <hi>French</hi> ſo clearly ow'd Succeſs to the <hi>Engliſh:</hi> and the Marriage of the Lady <hi>Mary,</hi> unleſs the Conſequences had been happier, might rather be thought the diſpoſer of the Prince of <hi>Orange</hi> to the Peace that follow'd, than be a pre<g ref="char:EOLhyphen"/>judice to the Intereſt of <hi>France,</hi> which proſper'd moſt after it.</p>
+            <p>In the ſame Paragraph, 'tis ſaid, That every one knows that this Match altered the mindes of the Duke of <hi>York</hi> and Duke of <hi>Monmouth,</hi> that from being the greateſt Aſ<g ref="char:EOLhyphen"/>ſerters of the French Intereſt, they became as forward as any for the War of <hi>France.</hi>
+            </p>
+            <pb n="20" facs="tcp:63728:12"/>
+            <p>And this Converſion, it ſeems, aſſiſted by the <hi>Power</hi> and <hi>Inclination</hi> of this Lord, brought on the Actual War with <hi>France,</hi> for which the Parliament gave their Money; and by this we ſee it own'd, that all were <hi>French</hi> but this Lord, and people not ſo miſtaken, it ſeems, that have been con<g ref="char:EOLhyphen"/>ſtantly jealous of it. But whether the Dukes of <hi>York</hi> and <hi>Monmouth</hi> have reaſon to thank him for declaring their Converſions, I know not, ſince he condemns them for an errour which we found ill effects of; but none on the contrary by the Converſion: and then he ſays the King had good intentions, <hi>&amp;c.</hi> which implies, that he never had any good before; as if he had <hi>now drawn him to his Kingdoms Intereſt.</hi> And as this Lord was pleas'd to order it, he never appears to have better after it: for whatever he is accus'd of, he charges upon the King, and acts as if a<g ref="char:EOLhyphen"/>greed with what he pretended to know of the Opinion of the <hi>French,</hi>
+               <note place="margin">
+                  <hi>Vid.</hi> His Speech in the Houſe of Lords at his Charge.</note> that they had the Kings Perſon and Government in the laſt de<g ref="char:EOLhyphen"/>gree of Contempt.</p>
+            <p>I know not whether that Lord ſhrunk, when he ſpoke thoſe words in the Houſe of Peers; but next the owning of ſuch an Opinion of the King, 'twas an audacious Crime to own a Belief that any could retain ſuch a Judgment of him. I hope this Lord is the onely perſon that thinks it either probable or poſſible.</p>
+            <p>But leaving this point, with bluſhes to have repeated ſuch a thing, I will ſet down ſome general Obſervations of Publick Affairs, which will beſt ſhew whether the Di<g ref="char:EOLhyphen"/>minution or Increaſe of the French Intereſt, was likely to be intended or effected in his time.</p>
+            <p>In the firſt place, to lay a Foundation to build upon, I ſuppoſe it may be taken for granted, that the Parliament did ever appear warmly averſe to that Intereſt; ;and of conſequence, muſt give the greateſt apprehenſions to the French, that from them might proceed the onely fatal Op<g ref="char:EOLhyphen"/>poſition, and which was not probably to be diverted ei<g ref="char:EOLhyphen"/>ther by Skill or Money.</p>
+            <pb n="21" facs="tcp:63728:12"/>
+            <p>In <hi>March</hi> 76, the Commons in Parliament preſented an Addreſs, moſt humbly offering to his Majeſties conſi<g ref="char:EOLhyphen"/>deration, That the mindes of his People were diſquieted with the manifeſt dangers ariſing by the Growth and Power of the French King, <hi>&amp;c.</hi> And therefore humbly preſented their Deſires, that his Majeſty would ſtrengthen Himſelf with ſtricter Alliances, to quiet the mindes of his People, and preſerve the <hi>Netherlands.</hi> The Kings Anſwer agreed, That the preſervation of <hi>Flanders</hi> was of great conſequence. But it ſeems, not being thought particular enough, it begot a ſecond Addreſs, on <hi>March</hi> the 26th, wherein they again more ſtrictly preſt the King to enter into ſuch Alliances as might obtain thoſe Ends. And in caſe that in purſuance of ſuch Alliances, his Majeſty ſhould be engaged in a War with the French King, they promiſe chearfully, upon notice of it in Parliament, ſo to ſupply the King, as that he might proſecute the ſame with ſucceſs. And in their Addreſs of the 29th of <hi>Jan.</hi> 77, they humbly deſired no Treaty, but ſuch a one as might put the French King in no better an Eſtate than he was after the <hi>Pyrenean</hi> Treaty.</p>
+            <p>This ſufficiently ſhew'd the temper of the Parliament, and their Judgment, That War it ſelf was more ſuitable to the Intereſt of <hi>England,</hi> than the growth of the French Power. But this begot great Debates, and ſhew'd ſo ma<g ref="char:EOLhyphen"/>ny influenc'd, that they appear'd ill Witneſſes for the boaſted <hi>Power</hi> and <hi>Inclination;</hi> and preſently after, while things of this great nature here had heavie motions, the frontier Towns were taken, as <hi>Valenciennes</hi> and St. <hi>Omers,</hi> &amp;c.</p>
+            <p>I will not delay to ſet down the particular Reaſons and Arguments that were raiſed againſt this conſtant Senſe of the Parliament; nor the ſharp Reprehenſions they ſome<g ref="char:EOLhyphen"/>times received from the Notions of their too-much inva<g ref="char:EOLhyphen"/>ding the Kings ſole Power in Peace and War. It ſhall ſuffice to obſerve, That thoſe Reprehenſions, Arguments, and Delays, did not ſeem to tend to the Diminution of the French Intereſt.</p>
+            <pb n="22" facs="tcp:63728:13"/>
+            <p>But to proceed: to make it yet more clear, that the growth of the <hi>French</hi> Intereſt and Power was nouriſht in the time of this Lords Power and Inclination, let it be fairly Examined what Proceedings here could moſt favour their growing Intereſt.</p>
+            <p>I will preſume then to aſſert, That nothing could con<g ref="char:EOLhyphen"/>tribute more to it, than all means uſed to hinder the Par<g ref="char:EOLhyphen"/>liaments engaging the King according to their judgment: and probably ſince it appeared, that notwithſtanding all oppoſition by Debates, and diſpleaſure ſhewed to ſome of the Addreſſes, they rather grew more warm than coo<g ref="char:EOLhyphen"/>ler in the purſuit; what was left, but frequent Prorogati<g ref="char:EOLhyphen"/>ons and Adjournments, to divert the weighty Stream of the Parliament from running with unreſiſtible violence againſt the <hi>French</hi> Intereſt?</p>
+            <p>Mr. <hi>Coleman</hi> was of this opinion, as plainly appears in his long Letter, where he ſaies, that it was their depen<g ref="char:EOLhyphen"/>dancy on the Parliament, that encouraged the Confede<g ref="char:EOLhyphen"/>rates to continue the War; and that <hi>their Diſſolution would break all their Meaſures:</hi> and there ſays, that the good Fa<g ref="char:EOLhyphen"/>ther he writ to before, ſo concurred in his Politiques that he aſſured him the King of <hi>France would aſſiſt it with his Power and Purſe:</hi>
+               <note place="margin">Colemans Tryal, pag. <hi>40.</hi>
+               </note> and a little after gives an Account of the uſeful Prorogation to the <hi>13th</hi> of <hi>April,</hi> being to a day ſo high in the Spring, that the thrifty Monſieur <hi>Rovigny</hi> thought would put the Confederates beyond their Meaſures:<note place="margin">Page <hi>48.</hi>
+               </note> and it appears, this Lord concurr'd alſo in their Politiques, that a Prorogation or Adjournment was ever a help at a Pinch; for in his Letter to Mr. <hi>Mountague,</hi> dated the 7th of <hi>Jan.</hi> 77/8. he ſays, That the principal cauſe of the Adjourn<g ref="char:EOLhyphen"/>ment for Thirteen days, was to ſee if an <hi>Expedient for Peace might be found in that time; and the effect of the Ad<g ref="char:EOLhyphen"/>journment hath hitherto been, that no body will believe other than that the Peace is already Concluded betwixt us and</hi> France.</p>
+            <p>I will not here ſet down the frequent Adjournments and Prorogations that were made, but onely obſerve, they
+<pb n="23" facs="tcp:63728:13"/>kept pace with the Succeſs of the <hi>French,</hi> and were moſt frequent when they were moſt proſperous; and that this hapned in the years 77, and 78. when the <hi>Power</hi> and <hi>In<g ref="char:EOLhyphen"/>clination</hi> was boaſted of; and in the ſame years the <hi>French</hi> grew ſo enlarged with Succeſs, that it is improbable any but the Concerned Party ſhould immediately affirm, that this Lords proceedings <hi>tended to the diminiſhing the</hi> French <hi>Intereſt in his time.</hi>
+            </p>
+            <p>Since then the contrary ſo clearly appears, That in this Lords time the <hi>French</hi> Intereſt grew ſo enlarged; I hope it will ſeem more proper to give the words their true application, and to ſay, If it thus increas'd, <hi>it will be hard to find who elſe there was near His Majeſty, who had power and inclination to do it.</hi>
+            </p>
+            <p>I come now to the laſt great particular of this Lords Proceedings towards the diminiſhing the <hi>French</hi> Intereſt, <hi>viz.</hi> The Letter which was produced to the Houſe of Commons, and haſtned, or rather neceſſitated, by this Lords <hi>Power</hi> and <hi>Inclination;</hi> for 'twere hard to find any other about His Majeſty, that could or would have en<g ref="char:EOLhyphen"/>deavoured to have Mr. <hi>Mountagues</hi> Cabinets ſo violently ſeized; and had he believed, as his Impartial Friend affirms, That the Letter might juſtly have born <hi>a wiſe and uſeful Conſtruction both to the King and Kingdom,</hi> he would not by ſo unuſual a violence have implyed a guilt in his own opinion, which is confirmed by that Secreſie he enjoyns the Embaſſadour to uſe in the Negotiation, for fear of giving offence at home.</p>
+            <p>I will here continue my Method, not to delay upon ar<g ref="char:EOLhyphen"/>guing Particulars and Circumſtances, where the right judg<g ref="char:EOLhyphen"/>ment muſt be drawn from the general, which is the ſub<g ref="char:EOLhyphen"/>ject matter it ſelf; as, that Mr. <hi>Montague</hi> confeſſes great Honour in this Lord; and that by a Letter to the King, himſelf ſays, That the Earl of <hi>Danby</hi> might have had more than ever he got by being Lord Treaſurer, if he would have prevailed with the King to agree to the Propoſitions of the French King; and a little after cryes, <hi>That if the Miniſters intended the ſetting up an Arbitrary Power at home,
+<pb n="24" facs="tcp:63728:14"/>they would certainly neither have diſobliged the French King as they have done, nor refuſed his Money.</hi>
+            </p>
+            <p>What Character Mr. <hi>Mountague</hi> gives this Lord in for<g ref="char:EOLhyphen"/>mer Letters, or what opinion the <hi>French</hi> had of him, was onely lyable to a Reflection made by a Member of the Houſe of Commons, when the Letters were read, That if the <hi>French</hi> had an apprehenſion that this Lord was not once their Friend, he was confident his own Letters ſhew<g ref="char:EOLhyphen"/>ed that they had reaſon now to have a kinder opinion of him. What the Letter to the King himſelf was, how my Lord of <hi>Danby</hi> might have got Money, we know not; but it appears by his Letter now, that Money would have been accepted: but for the laſt Aſſertion, That the Mini<g ref="char:EOLhyphen"/>ſters had diſobliged the <hi>French,</hi> needs no confutation, but what has been ſaid of the whole courſe of things; which I fear they will never be ſo juſt to repay <hi>England</hi> by Coun<g ref="char:EOLhyphen"/>ſels as weak as thoſe which ſo much contributed to their Succeſſes.</p>
+            <p>From theſe Arguments he concludes, <hi>That it would puzzle the moſt uncharitable Cenſurer to find another cauſe than their unwillingneſs to enſlave their Country, why Money from the French was refuſed.</hi>
+            </p>
+            <p>If this be a good conſequence, That to accept <hi>French</hi> Money is to enſlave the Nation; I hope it follows, that the Sum of Six Millions of Livres yearly, to be paid for three years, and offered to be accepted, was for the ſame purpoſe.</p>
+            <p>The laſt Evidences, inſtead of Coffee-houſes, is now of<g ref="char:EOLhyphen"/>fered from Gazettes, and the Dutcheſs of <hi>Mazarines</hi> Lodg<g ref="char:EOLhyphen"/>ings; the firſt declares the ill-will the <hi>French</hi> had for this Lord; and the other being a place where the preſent <hi>French</hi> Ambaſſadour [is apt to ſpeak more freely] <hi>he uſed ſuch Diſcourſes as would convince any man,</hi> &amp;c.</p>
+            <p>If the <hi>French</hi> Gazettes gave ſuch an Account of him, 'tis anſwered as the other was, That they had no ſuch oc<g ref="char:EOLhyphen"/>caſion now; and for the other proof, I have heard that the Dutcheſs of <hi>Mazarines</hi> Chamber has been more uſed to the free Diſcourſes of the Confederate Miniſters, than the
+<pb n="25" facs="tcp:63728:14"/>
+               <hi>French</hi> Embaſſadours. But among theſe weighty Argu<g ref="char:EOLhyphen"/>ments and Evidences, I wonder 'tis omitted, that this Lord drunk a Confuſion to the <hi>French</hi> at the late Biſhop of <hi>Canterbury</hi>'s houſe at dinner; and I think it as full and cogent as moſt of the others.</p>
+            <p>But I am now brought cloſe to the matter, by being deſired to obſerve four things.</p>
+            <p>Firſt, That the <hi>Propoſitions ſent, was onely a Copy of what Mr.</hi> Montague <hi>was to receive from the Secretary; ſo that the thing it ſelf was no Secret to them.</hi>
+            </p>
+            <p>This Argument ſeems very ſtrange, becauſe the Secre<g ref="char:EOLhyphen"/>taries knew of the Propoſitions for the Peace; which was likewiſe known to the Forreign Miniſters: <hi>Ergo,</hi> the trea<g ref="char:EOLhyphen"/>ting for ſo much Money for three years, to beget a right temper in Parliaments, was no Secret to them neither, though enjoyn'd to be ſo, eſpecially to the Secretary: The Logick would be as good, to conclude, That he that knows ſomething, knows all things.</p>
+            <p>In that Letter alſo, 'tis fit to obſerve, that the King was ſufficiently inform'd, that the <hi>French</hi> deſired Peace upon the Terms ſent by the Secretary; but thinks it not fit to ſtay till the Deſire was formally receiv'd, and the Embaſ<g ref="char:EOLhyphen"/>ſadour as formally impower'd to propoſe, for fear the time ſhould be loſt of effecting the Peace; that is, for fear the Market ſhould be miſs'd of contracting for ſo much Mo<g ref="char:EOLhyphen"/>ney as might ſecure againſt the Troubles of Parliaments for ſome years. And if Adjournments and Prorogations have been the uſual prudence, certainly a well-bought Diſſolution (for three years at leaſt) muſt needs be thought admirable Politiques.</p>
+            <p>The ſecond is, That the Propoſitions were not origi<g ref="char:EOLhyphen"/>nally the Kings, <hi>but the Confederates; ſo that the King was to gain nothing by making the Market either higher or lower: and the</hi> French <hi>had often experience that his Majeſty would not do otherways.</hi>
+            </p>
+            <p>This ſecond way of Arguing, is as ſtrenuous as the for<g ref="char:EOLhyphen"/>mer, and bears equal reſemblance to the reaſon and na<g ref="char:EOLhyphen"/>ture of it: for 'tis ſtill grounded upon the Propoſitions,
+<pb n="26" facs="tcp:63728:15"/>That they were originally the Confederates; who at that time were too much diſcourag'd to hope or propoſe any thing equal to the Common Intereſt: And therefore the Market was to be made up in the preventing that which might raiſe their ſpirits, the meeting of Parliaments. Which Mr. <hi>Coleman</hi> (whoſe policy agreed with this Lords) declares to be the Fountain of their Reſolutions. So that the Logick appears this:</p>
+            <p>There was no Markets to be made of the Propoſitions;</p>
+            <p>
+               <hi>Ergo,</hi> there was no Market to be made of Parliaments.</p>
+            <p>The third continues in the ſame Method; which is laid down as a full juſtification of his Majeſties Honour in that point, and that he had no deſigne of getting the Money for the purpoſes ſuggeſted againſt the Earl of <hi>Danby;</hi> for in that caſe he would not have conſidered the gain or loſs of the Confederates. And Mr. <hi>Mountague</hi> is expreſly for<g ref="char:EOLhyphen"/>bidden in the Letter, to mention the Money at all, in caſe the <hi>French</hi> King did not accept thoſe very Propoſitions of the Confederates, and in the Terms as his Majeſty re<g ref="char:EOLhyphen"/>celv'd them from his Embaſſadour at the <hi>Hague.</hi>
+            </p>
+            <p>This Argument alſo is like the reſt, grounded upon the Propoſitions; and is made to prove, that the Money was not deſigned for ill purpoſes, becauſe there was ſo great a care expreſſed of ſticking entirely to the Propoſitions. Sure he forgets that but a little before he ſays, That this Lord in his Letter aſſures him, that they were ſufficiently inform'd, the <hi>French</hi> deſired Peace upon thoſe Propoſi<g ref="char:EOLhyphen"/>tions. It ſeems ſtrange then, that the juſtneſs of ſticking to them, ſhould be ſo inſiſted upon, when the <hi>French</hi> had given their permiſſion by the approbation of them.</p>
+            <p>I wiſh that in this Paragraph the Argument and reſpect for his Majeſties Honour had been better defended, or wholly let alone; but firſt to bring the Kings Honour in queſtion, and then to argue ſo ill in the defence of it, was two great, though not equal Crimes: for no guilt but Treaſon, can exceed or equal that of too boldly medling with that ſacred Subject.</p>
+            <pb n="27" facs="tcp:63728:15"/>
+            <p>The Fourth is a new ſort of Argument, from the laſt words of the Letter, where the Earl tells Mr. <hi>Mountague, That he believes that would be the laſt time any Propoſals of Peace would be made; and that he is confident they will not be accepted, wherefore he might accordingly take the Kings Meaſures and his own.</hi>
+            </p>
+            <p>How to apply this Argument for any uſe to this Lord, I know not; it onely expreſſes an apprehenſion or opini<g ref="char:EOLhyphen"/>on, That the Propoſals would not be accepted: ſure he cannot mean the Propoſals that he ſays were received from the Confederates; for thoſe he was informed were deſir'd by the <hi>French:</hi> it could be onely the Propoſitions for the Money, that probably gave the apprehenſions of the re<g ref="char:EOLhyphen"/>fuſal.</p>
+            <p>After theſe four Obſervations, he proceeds to that ex<g ref="char:EOLhyphen"/>preſſion about the Parliament (which he ſuppoſes has been a principal Cauſe of giving them offence) and plainly a<g ref="char:EOLhyphen"/>vows, that he has heard this Lord ſay, That His Majeſty cauſed that expreſſion to be uſed, onely for a Motive to <hi>perſwade the King of</hi> France <hi>to give a greater Sum than Six Millins of Livers, which then had been offered; and be<g ref="char:EOLhyphen"/>cauſe otherways in the ill poſture things then ſtood betwixt the two Kings, the</hi> French <hi>King might ſuſpect whether the King of</hi> England <hi>would agree to any Peace at all: And theſe being the whole Contents of the Letter, and it being writ by His Majeſties expreſs Order, you will eaſily conclude this Lord could not be ſo hardly proſecuted for that onely, were there no other Cauſes for it; when in truth he believes there are very few Subjects but would take it ill not to be obeyed by their Servants, and their Servants might as juſtly expect their Ma<g ref="char:EOLhyphen"/>ſters protection for their Obedience.</hi>
+            </p>
+            <p>Before I enter upon the Argument of this Paragraph, 'tis fit that I ſhould firſt avoid the Crime that I preſume to Condemn in this Lord: for if I ſhould endeavour to prove the thing to be ill in its own nature, and by ſilence leave the King entituled to it, I ſhould ſhare the guilt ſo com<g ref="char:EOLhyphen"/>mon to this Lord; I will therefore firſt endeavour to do my ſelf that Juſtice, which the law does the Nation, to
+<pb n="28" facs="tcp:63728:16"/>ſeparate the King from wrong or diſhonour; and I will after in a more proper place examine the Argument drawn from Obedience.</p>
+            <p>I need not go about to prove the well-known Maxime of the Law, <hi>That the King can do no wrong;</hi> and if he cannot be liable to do wrong, none can entitle him to be the Author of wrong done: and this is not onely matter of Law, but grounded upon Prudence and Neceſſity; for to allow it to be poſſible that a King could do wrong, and yet that he is accountable to none but God, were to grant there is a miſchief without the Compaſs of the Laws; and 'twere rational if the King could commit the offence, that he ſhould be ſubject to Men to judge the puniſhment; therefore juſtly 'tis ſaid of the Antient Lawyer <hi>Bracton,</hi> who wrote in <hi>Hen.</hi> 3. time: <hi>Ipſe autem Rex non debet eſſe ſub homine, ſed ſub Deo, &amp;c.</hi> and by the ſame reaſon the Kings Honour is as little ſubject to Men as his perſon; ac<g ref="char:EOLhyphen"/>cordingly the Act of the 13th of the King expreſſes a care of the Preſervation of His Majeſty, by declaring, That in his Honour and Happineſs conſiſted the good and wel<g ref="char:EOLhyphen"/>fare of his people: ſo that of conſequence, any one that attributes diſhonour to the King, is an Offender againſt the good and welfare of the people.</p>
+            <p>On the other ſide, if any Favourite or Councellor ſhould be diſcharged from ill Actions or Counſels, by charging the King with the allowance or knowledge of them, what an encouragement might this be for guilty men, and what an <hi>Aſylum</hi> to fly too when the guilt is committed? In the ſame Act there is a heavy ſentence on any that ſhall ſay the King is a Papiſt, or ſhall any ways, by Word or Writing, publiſh or utter any thing to incite people to the hatred or diſlike of the Kings Perſon. I would deſire any to conſider, whether any of theſe Crimes would be anſwe<g ref="char:EOLhyphen"/>red by Pleading, that what was ſaid, was ſpoken by the Kings knowledge and allowance; it would appear, the King that can do no wrong, cannot avow the wrong done to him and his people. If this ſhould appear rigorous to any, let them but equally compare the inconveniencies on
+<pb n="29" facs="tcp:63728:16"/>both ſides, and it will appear by this way, ſome particular men of ſhaken Conſciences and Principles may ſuffer by their own folly; but by the other way, the Publick may ſuffer under the protected guilt of a few Corrupted or Ambitious perſons.</p>
+            <p>And ſince in all Ages it appears, how ſoft men are to the Impreſſions of Wealth and Power; how juſt will it ſeem there ſhould be no excuſe for ill Councils; and thoſe that will undertake the care of great things, ought to bear the weight and hazard of the Employment: This would increaſe the care of doing well, and oppoſing ill; and great men would find it better and ſafer to depend upon their own Vertues, than on their Flatteries; and Truth will then appear the beſt Policy, when Falſhood becomes the greateſt danger. And I will venture to adde this farther Remark, That this Lord has been bolder in this way, than ever any Subject was; and it looks like an ill return to his Gracious and Bountiful Maſter, that he ne<g ref="char:EOLhyphen"/>ver entitles him to any thing for his Honour; but as I ob<g ref="char:EOLhyphen"/>ſerved before in the buſineſs of the Goldſmiths, he whol<g ref="char:EOLhyphen"/>ly attributes the good Action to himſelf, and would make the Kings Treaſure purchaſe his honour and eſteem.</p>
+            <p>I have heard of ſuch generous Friends that have charg'd themſelves with their Friends Misfortunes, to make them<g ref="char:EOLhyphen"/>ſelves capable to ſuffer for them; but this Lord has not acted ſo for his King; but on the contrary, would fix ill things on him: for if what was charg'd upon him had been avowable, there was no need to make any other Plea, than what might proceed from the nature of the thing.</p>
+            <p>This brings me to conſider the Expreſſion about the Parliament, which he might juſtly indeed ſuppoſe had been a principal cauſe of giving offence.</p>
+            <p>Having now with juſt duty ſeparated the King from the concern of this matter, I dare proceed to conſider it with the reaſon of the Paragraph.</p>
+            <p>I agree with the Author, That the Clauſe that gave the Parliament Offence, (he might have added, and every <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi>-man that read it beſides) was this:</p>
+            <pb n="30" facs="tcp:63728:17"/>
+            <p>
+               <hi>In caſe the Conditions of the Peace ſhall be accepted, the King expects to have Six Millions of Livres yearly for three years, from the time that this agreement ſhall be ſigned be<g ref="char:EOLhyphen"/>twixt His Majeſty and the King of</hi> France; <hi>becauſe it will be two or three years before he can hope to find his Parliament in an humour to give him Supplies, after the having made any Peace with</hi> France.</p>
+            <p>The reaſon given for this Clauſe is remarkable; That it was inſerted onely for a Motive to perſwade the King of <hi>France</hi> to give a greater Sum than ſix Millions of Livres; becauſe otherwiſe, in the ill poſture things ſtood in, the French King might ſuſpect whether the King of <hi>England</hi> would agree to any Peace at all.</p>
+            <p>I cannot imagine the force of this Argument, unleſs it be to ſhew, That there was no Motive to the French King to give Money largely, nor to make him believe the King of <hi>England</hi> was firm to him, but the Conditions of keeping off Parliaments.</p>
+            <p>How clearly does it now appear, That this way onely the French believed their Intereſt was to be ſupported; and as if the old Arts of Adjournments and Prorogations had not been ſufficient, it is projected now to let a Leaſe of Parliaments to the French for three years; and 'tis rea<g ref="char:EOLhyphen"/>ſonably gueſt they would have been out of humour to grant Supplies, when Supplies were gotten from others to deſtroy them; but how after three years the Parliament ſhould be brought in humour, is not to be ſuppoſed; 'tis more probable that the Leaſe would have been renew<g ref="char:EOLhyphen"/>ed.</p>
+            <p>The next Objection to this Letter (he ſays) has been, That it was Writ the 25th of <hi>March,</hi> 78. which was five days after the Parliament had paſt an act to raiſe Money for an actual War with <hi>France.</hi>
+            </p>
+            <p>This is confeſt to be true; but Anſwered,</p>
+            <p>Firſt, <hi>That an Act to raiſe Money for a War, is no Decla<g ref="char:EOLhyphen"/>ration of the War.</hi>
+            </p>
+            <p>But that Act was grounded upon a Meſſage from the King to the Parliament for an Actual War, and 'twas ſo de<g ref="char:EOLhyphen"/>clared
+<pb n="31" facs="tcp:63728:17"/>to be by one of the Secretaries in the Houſe of Commons: but now 'twill be hard for this impartial Friend to adviſe his Lord which to ſtand to, whether the King was Author of the Meſſage ſent by the Secretary, or of the Clauſe in his Letter: for ſure, though he has been very bold with the King, yet he would not make him own Contradictions at the ſame time.</p>
+            <p>The ſecond is, That till ſuch Declaration, all Treaties are lawful; and even then too, if the King pleaſes, in whom the ſole power of making Peace and War is made by Law.</p>
+            <p>There is no queſtion, but in the time of War declared, the King may treat of Peace; but whether this Lord may treat for it in ſuch a way, as by the clauſe of the Letter, is the more proper Queſtion.</p>
+            <p>Thirdly, he ſays, That the Kings Embaſſadours were then at <hi>Nimegen</hi> treating of <hi>Peace, and were indeed never recall'd, nor forbidden to treat the Peace; and can it be thought a fault, for a Miniſter to obey the Kings Orders at home, on the ſame Subject upon which other Miniſters were acting at the ſame time abroad?</hi>
+            </p>
+            <p>This is the uſual manner of Arguing; but it it affords ſome new matter of Anſwer, which ariſes from obſerving, that the Miniſters abroad treated upon the ſame Subject as this Lord did at home; which implies, they all treated for ſo much Money to be the price of Parliaments, or elſe this Miniſter may be in fault, though the others were not: But I ſuppoſe the Miniſters were not ſo bold upon this point abroad, as this Miniſter was at home; and if not, the Argument is at an end.</p>
+            <p>The fourth Argument is compoſed of no new matter, till at the latter end 'tis ſaid, That had it been a Crime, his Majeſties Embaſſadour at <hi>Paris</hi> muſt be in as much (if not more) fault to have obeyed the Kings Orders at ſecond hand, as this Lord was, to obey his Majeſties immediate Commands from his own mouth, and ſigned by his hand.</p>
+            <pb n="32" facs="tcp:63728:18"/>
+            <p>I have before taken notice how little it adds or dimi<g ref="char:EOLhyphen"/>niſhes to any Offence, to compare it with what others have committed; it being onely juſt and proper, that every thing ſhould bear its own weight: But if it were not ſo, I ſhould not trouble my ſelf to diſpute whether the ſame fault was greateſt in the firſt or ſecond concocti<g ref="char:EOLhyphen"/>on; but poſſibly the firſt might be the Adviſer and Obeyer both, which the laſt could not be. But perhaps the meaning of this is, that the Embaſſadour had been in the greateſt fault, if he had believed this Lord, that it was the Kings Order. But Mr. <hi>Mountague</hi> did not ſeem guilty of ſuch an Errour, as to believe ſo much in this Lord, or ſo well of the buſineſs; yet in his Speech in the Houſe, as well as in his letter, he affirms, He could produce the Kings Hand for the moſt material things, and particularly for the Letters now made uſe of againſt him.</p>
+            <p>I know not what Papers ſuch a one, ſo great in the Kings Truſt, and who uſually preſented him with ſo many, might get ſign'd; but he had ſhewed the ſame reſpect to the King to have publiſhed them, as to own he had them.</p>
+            <p>After this, he winds up all upon this ſure bottom, in theſe words.</p>
+            <p>
+               <hi>In ſhort, it would be ill for Miniſters of State, and worſe for their Maſters, if the one may not Command, and the others be obliged to Obey,</hi> &amp;c.</p>
+            <p>Though this Argument of Obedience has been often us'd, I thought here would be the propereſt place to take notice of it; remembring a little before he ſays, There are very few Subjects, <hi>but would take it ill, not to be obeyed by their Servants; and their Servants might as juſtly expect their Maſters protection for their Obedience.</hi>
+            </p>
+            <p>I deſire any Reader, more Impartial than this Author, to conſider the falſeneſs of this in every particular. Firſt, ſure there are few Maſters that would expect Obedience from their Servants in unlawful things; and the Servants could leſs expect protection, unleſs their Maſters were above the Law. The great Maſter of the Nation can give no more
+<pb n="33" facs="tcp:63728:18"/>protection, nor require more Obedience than the Laws of God and man allow. If Obedience is the excuſe of ill acts, it ceaſes to be a good Duty; and if Abſolution be fixt to Obedience, all Crimes have loſt their natures, and Counſellors ſhould onely be ſworn to a Princes Will, and not his Intereſt. If a Prince of another Religion ſhould command a Change in me, would the Obedience be a good Plea at the laſt Tribunal? And the reaſon holds the ſame in every leſſer Crime: but this Argument of ſuch an Implicite Obedience, is onely put into the diſguiſe of Con<g ref="char:EOLhyphen"/>ſcience, to prevent the true Obedience of Chriſtianity, rather to ſuffer than do ill; but ſuch a notion of Con<g ref="char:EOLhyphen"/>ſcience is much more pleaſant, that ſhelters Intereſt and Ambition, rather than the other that expoſes them to ha<g ref="char:EOLhyphen"/>zard.</p>
+            <p>I have now gone through this Lords performances, in the Treaſury and State-Affairs; and as for that which fol<g ref="char:EOLhyphen"/>lows about the Murder of Sir <hi>Edmundbury Godfrey,</hi> I eaſi<g ref="char:EOLhyphen"/>ly agree them to be Libels that Charge this Lord with it; and think it muſt be an accuſation againſt the Witneſſes, Judges, and Jury; and I for my part muſt confeſs, that the matter appeared to me clearly and fully prov'd.</p>
+            <p>As to what relates to the Popiſh Plot, I leave it to others that know more; not pretending to meddle with any thing that I have not had ſome particular knowledge in; and therefore ſhall ſay little to his concluding Argument, upon an Objection raiſed by himſelf, <hi>Why an Innocent man ſhould withdraw from his Tryal, and then upon his Appea<g ref="char:EOLhyphen"/>rance quit all Defences, and betake himſelf to a Pardon?</hi> But this particular of making a Defence, or relying upon a Pardon, belongs onely to the Lord himſelf; and to draw Arguments from thence to imply a guilt, would rather ſhew a deſire to find a Crime, than prove it. Nor will I meddle with the nature of his Pardon, by what means obtained, or how valid; that muſt be conſidered in a more proper place; and 'twere too much confidence in any ſingle Writer, to Anticipate a Parliaments Judgment: but
+<pb n="34" facs="tcp:63728:19"/>this Impartial Writer taking it for granted that he has made it evident that this Lord was a good Miniſter and a good <hi>Engliſhman,</hi> he concludes, that it may be reaſona<g ref="char:EOLhyphen"/>bly objected from thence, Why a man ſo qualified to de<g ref="char:EOLhyphen"/>fend himſelf, ſhould quit all Defences but his Pardon: but if by the Obſervations that I have made, the contrary does appear, his Pardon was certainly the beſt Defence to inſiſt on.</p>
+            <p>The Concluſion of this whole matter brings me to my laſt Obſervation, upon the Complaint made, <hi>That Inno<g ref="char:EOLhyphen"/>cence is no Protection to Prince or Subject;</hi> for one, he in<g ref="char:EOLhyphen"/>ſtances the laſt bleſſed King; for the other, this Lord; and makes the ſeverity of their Caſes equal. This indeed, if true, is a ſufficient anſwer for Pleading his Pardon, when his Innocency could be no Protection; and agrees with the foundation laid down in the beginning, <hi>That Malice had too great a ſhare in his Proſecution;</hi> ſo that he returns a Charge upon his Proſecutors the Commons for Malice; and againſt his Judges and Jury the Peers, as no regarders of Innocency: though in this Lords Caſe, arguing againſt the Libellers that would fix Sir <hi>Edmundbury Godfrey's</hi> death on him, he ſays, in that they did accuſe the Witneſ<g ref="char:EOLhyphen"/>ſes, Judge, and Jury that Condemned others for it; but now it ſeems he argues another way, not allowing ſo much favour to Lords and Commons, as to the others. Nor does he deal leſs boldly with all Kings and their Reputations that come in his way; upon this King he endeavours to fix many of the Crimes charg'd on him; and with his Fa<g ref="char:EOLhyphen"/>thers Sufferings and Virtues compares his own; the excel<g ref="char:EOLhyphen"/>lent nature and bounty of the firſt, as little merited the re<g ref="char:EOLhyphen"/>turn, as the Caſe of the laſt did the Compariſon.</p>
+            <p>I have not wanted Reflections, That it ſeems ſevere to endeavour to adde weight to the Unfortunate; and were there no cauſe given, I ſhould cenſure it as a want of ge<g ref="char:EOLhyphen"/>neroſity to ſay any thing, though true, that might adde to Affliction: but ſince 'tis charged upon all, <hi>That Malice may have too great a ſhare in the Proſecution of this Lord;</hi> I preferred my Duty to the Publick, before any particular
+<pb n="35" facs="tcp:63728:19"/>conſideration, in preſenting theſe Obſervations, to inform them of thoſe Truths, which by ſo many diſguiſes are turned into Maſquerade, and needed ſome that were well acquainted with them, to make the diſcovery of eve<g ref="char:EOLhyphen"/>ry particular; and the Reader is now left to judge, whe<g ref="char:EOLhyphen"/>ther they are well uſed in the promiſe of ſo much Truth, in this Impartial Caſe of the Earl of <hi>DANBY.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
